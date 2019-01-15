@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.random.randint(100,size=10)
+
+#setting every second element to -10
+for i in range(10):
+	if(i%2!=0):
+		arr[i]=-10
+#printing elements		
+for i in range(10):
+	print(arr[i])
